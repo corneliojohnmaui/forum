@@ -1,0 +1,226 @@
+
+
+/*SIDE NAV STYLE */
+#mysidenav 
+{
+  z-index: 999;
+}
+#mySidenav a {
+  position: absolute;
+  left: -133px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 180px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+   z-index: 999;
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+#about {
+  top: 20px;
+  background-color: #4CAF50;
+}
+
+#blog {
+  top: 80px;
+  background-color: #2196F3;
+}
+
+#projects {
+  top: 140px;
+  background-color: #f44336;
+}
+
+#contact {
+  top: 200px;
+  background-color: #555
+}
+
+
+/* ------------------- CONTENT -----------------*/
+
+#wholediv
+{
+  margin-bottom: 10px;
+  padding: 10px 10px;
+  margin-right: 20px;
+  margin-left: 20px;
+
+}
+ .container
+{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  max-width: 830px;
+}
+	@media(max-width: 1440px)
+	{
+		.container
+		{
+		  margin-left: auto;
+		  margin-right: auto;
+		  margin-top: 30px;
+		  max-width: 1200px;
+		  /*WIDTH OF CONTAINER ON MY PC*/		
+		}
+	}
+/* ----------------- DIV TOP */
+#frow
+{
+  
+}
+
+ /*------------- NEW TOPIC STYLE -------------*/
+#newtop
+{
+  background-color: #f1f1f1;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;
+  padding: 10px 10px;
+  /*width: 550px;*/
+  
+}
+
+/* -------------- POSTS --------------------*/
+
+#posts
+{
+  background-color: #f1f1f1;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;
+  padding: 10px 10px;
+  /*width: 580px;*/
+  
+}
+
+#posts table
+{
+   background-color: white;
+}
+
+#forumTb img
+{
+  border: 1px solid black;
+}
+.subjects
+{
+  color: black;
+}
+.subjects:hover
+{
+  cursor:pointer;
+  text-decoration: underline;
+  font-size: 1rem;
+  
+}
+#tablePosts table
+{
+	margin-right: 0px;
+	margin-left: 0px;
+	/*max-width: 550px;*/
+}
+#selectedPost
+{
+	
+	 height: 500px;
+	overflow-x:hidden;
+	overflow-y: hidden;
+
+}
+#selectedPost:hover
+{
+	overflow-y: scroll;
+	
+}	
+#selectedPost table
+{
+	margin-right: 0px;
+	margin-left: 0px;
+  width: 
+}
+#sp-div
+{
+	height: 150px;
+}
+  @media(max-width: 957px){
+    #tablePosts table
+    {
+      margin-right: 0px;
+      margin-left: 0px;
+      max-width: 550px;
+    }
+    .container
+    {
+      margin-right: 25px;
+      margin-left: 25px;
+    }
+    #selectedPost
+    {
+      height: 400px;
+    }
+  }
+
+	@media(max-width: 1440px)
+	{
+		#tablePosts table
+		{
+			margin-right: 0px;
+			margin-left: 0px;
+			max-width: 750px;
+		}
+		#selectedPost table
+		{
+			max-width: 740px;
+		}
+		#selectedPost
+		{			
+			max-width: 785px;
+		}
+
+		#sp-div
+		{
+
+			max-width: 730px;	
+		}
+	}
+
+/* --------------- LOGIN & REGISTER ---------------*/
+.loginReg
+{
+  
+ background-color: #f1f1f1;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;
+  padding: 10px 10px;
+  margin-left: 10px;
+
+}
+#logRegDiv
+{
+  align-content: right;
+
+}
+
+/*------------------- ONLINE USERS DIV & CHATBOX  ------------------*/
+#chatbox
+{
+ background-color: #f1f1f1;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;
+}
+#online_users
+{
+  margin-left: 10px;
+  background-color: #f1f1f1;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;
+}
+#online_users .card-body
+{
+  /*padding: 5px;*/
+  padding-top: 5px;
+  padding-bottom: 3px;
+}
+
